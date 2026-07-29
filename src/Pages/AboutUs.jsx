@@ -11,12 +11,12 @@ const AboutUs = () => {
 
   const countriesData = [
     { id: "SYR", name: t("about.expansion.countries.syria"), img: "/aboutUs/syria_flag.webp" },
-    { id: "JOR", name: t("about.expansion.countries.jordan"), img: "/aboutUs/j.svg" },
+    { id: "JOR", name: t("about.expansion.countries.jordan"), img: "/aboutUs/j.webp" },
     { id: "PSE", name: t("about.expansion.countries.palestine"), img: "/aboutUs/flag.webp" },
-    { id: "TUR", name: t("about.expansion.countries.turkey"), img: "/aboutUs/tur.png" },
-    { id: "GBR", name: t("about.expansion.countries.uk"), img: "/aboutUs/uk.svg" },
+    { id: "TUR", name: t("about.expansion.countries.turkey"), img: "/aboutUs/tur.webp" },
+    { id: "GBR", name: t("about.expansion.countries.uk"), img: "/aboutUs/uk.webp" },
     { id: "USA", name: t("about.expansion.countries.usa"), img: "/aboutUs/usa.webp" },
-    { id: "ZAF", name: t("about.expansion.countries.southAfrica"), img: "/aboutUs/Flag_of_South_Africa.svg" },
+    { id: "ZAF", name: t("about.expansion.countries.southAfrica"), img: "/aboutUs/Flag_of_South_Africa.webp" },
   ];
 
   const highlightedIds = countriesData.map((d) => d.id);
@@ -85,7 +85,7 @@ const AboutUs = () => {
 
                 <div className="relative z-10 h-full w-full overflow-hidden rounded-[2.5rem] bg-white shadow-2xl">
                   <img
-                    src="/aboutUs/phot.png"
+                    src="/aboutUs/phot.webp"
                     alt="About IAC"
                     className="h-full w-full object-cover transition-transform duration-1000 hover:scale-110"
                   />
