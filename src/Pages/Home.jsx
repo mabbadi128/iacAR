@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import AnimatedCounter from "../components/AnimatedCounter";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   const [teamIndex, setTeamIndex] = useState(0);
@@ -82,12 +83,12 @@ export default function Home() {
             {t("home.subtitle3")}
           </p>
 
-          <a
-            href="/campaigns"
+          <Link
+            to="/campaigns"
             className="inline-block rounded-md bg-[#FDBB2D] px-8 py-4 text-lg font-bold text-[#155541] shadow-lg transition hover:scale-105 hover:opacity-90"
           >
             {t("home.button")}
-          </a>
+          </Link>
         </div>
       </section>
 
