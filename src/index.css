@@ -2,6 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Exo:wght@300;400;500;600;700;800;900&display=swap");
 
 
+/* Prevent horizontal scroll */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
 html[lang="ar"],
 html[lang="ar"] body {
   font-family: "Cairo", sans-serif;
@@ -36,6 +48,7 @@ html[lang="en"] body {
   }
 }
 
+
 @keyframes fadeSlider {
   from {
     opacity: 0;
@@ -50,21 +63,26 @@ html[lang="en"] body {
 
 
 .container {
-  width: min(1100px);  /* صغّرنا العرض */
+  width: min(1100px, 100%);
   margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 
 
 .contactHero {
   position: relative;
+  width: 100%;
   min-height: 300px;
   display: flex;
   align-items: center;
+  overflow: hidden;
   background-image: url("/ContactUs/contactHero.jpg");
   background-size: cover;
   background-position: center;
 }
+
 
 .heroOverlay {
   position: absolute;
@@ -72,10 +90,12 @@ html[lang="en"] body {
   background: rgba(0, 0, 0, 0.55);
 }
 
+
 .contactHeroContent {
   position: relative;
   z-index: 1;
 }
+
 
 .contactHeroContent h1 {
   color: white;
@@ -83,16 +103,22 @@ html[lang="en"] body {
   margin: 0;
 }
 
+
+
 .contactSection {
   padding: 64px 0;
 }
 
+
 .contactGrid {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr);
   gap: 80px;
   align-items: start;
+  width: 100%;
 }
+
+
 
 .leadText {
   font-size: 20px;
@@ -100,16 +126,22 @@ html[lang="en"] body {
   margin: 0 0 40px;
 }
 
+
+
 .formGrid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px 34px;
+  width: 100%;
 }
+
 
 .formGroup {
   display: flex;
   flex-direction: column;
 }
+
+
 
 .formGroup label {
   margin-bottom: 10px;
@@ -117,9 +149,11 @@ html[lang="en"] body {
   font-size: 18px;
 }
 
+
 .formGroup input,
 .formGroup textarea {
   width: 100%;
+  max-width: 100%;
   border: 1px solid #cfcfcf;
   border-radius: 8px;
   padding: 10px 12px;
@@ -128,22 +162,27 @@ html[lang="en"] body {
   background: white;
 }
 
+
 .formGroup input {
   height: 34px;
 }
+
 
 .formGroup textarea {
   resize: vertical;
 }
 
+
 .fullWidth {
   grid-column: 1 / -1;
 }
+
 
 .submitRow {
   text-align: right;
   margin-top: 4px;
 }
+
 
 .submitRow button {
   background: #fdbb2d;
@@ -155,18 +194,23 @@ html[lang="en"] body {
   cursor: pointer;
 }
 
+
+
 .contactInfo {
   background: white;
   margin-top: 130px;
   padding: 24px;
+  width: 100%;
   border-radius: 12px;
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
 }
+
 
 .contactInfo h5 {
   font-size: 20px;
   margin: 0 0 24px;
 }
+
 
 .contactInfo ul {
   list-style: none;
@@ -174,77 +218,135 @@ html[lang="en"] body {
   margin: 0 0 34px;
 }
 
+
 .contactInfo li {
   margin-bottom: 12px;
   font-size: 14px;
   line-height: 1.6;
 }
 
+
 .contactInfo a {
   color: #0d6efd;
   text-decoration: none;
 }
 
+
 .contactInfo img {
   display: block;
   width: 55%;
   max-width: 300px;
+  height: auto;
   margin: 30px auto 0;
   padding-top: 28px;
   border-top: 1px solid #ddd;
 }
 
+
+
 @media (max-width: 900px) {
+
   .contactGrid {
     grid-template-columns: 1fr;
     gap: 40px;
   }
 
+
   .contactHeroContent h1 {
     font-size: 46px;
   }
+
+
+  .contactInfo {
+    margin-top: 0;
+  }
+
 }
 
+
+
 @media (max-width: 560px) {
+
+
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+
   .formGrid {
     grid-template-columns: 1fr;
+    gap: 18px;
   }
+
 
   .contactSection {
     padding: 40px 0;
   }
 
+
   .contactInfo {
-    padding: 28px;
+    padding: 20px;
   }
+
+
+  .leadText {
+    font-size: 17px;
+  }
+
+
+  .contactHeroContent h1 {
+    font-size: 40px;
+  }
+
+
+  .submitRow {
+    text-align: center;
+  }
+
+
+  .submitRow button {
+    width: 100%;
+  }
+
 }
+
+
 
 @keyframes scaleBg {
   0% {
     transform: scale(1.2);
   }
+
   100% {
     transform: scale(1);
   }
 }
 
+
 .animate-bg-zoom {
   animation: scaleBg 10s ease-out forwards;
 }
 
+
+
 @keyframes fadeInSlow {
+
   0% {
     opacity: 0;
     transform: translateY(20px);
     filter: blur(4px);
   }
 
+
   100% {
     opacity: 1;
     transform: translateY(0);
     filter: blur(0);
   }
+
 }
+
 
 .animate-fadeInText {
   animation: fadeInSlow 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
