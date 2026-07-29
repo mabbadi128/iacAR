@@ -7,21 +7,21 @@ export default function Campaigns() {
   const [index, setIndex] = useState(0);
 
   const oldCampaigns = [
-    { id: "food-basket", image: "/campaigns/food_basket.jpeg" },
-    { id: "fast-food-kitchens", image: "/campaigns/kitchen.jpg" },
-    { id: "eid-adha-sacrifices", image: "/campaigns/Ada7i.jpeg" },
-    { id: "ramadan-market", image: "/campaigns/ramadan_market.jpeg" },
-    { id: "football-academy", image: "/campaigns/Football1_1.jpg" },
-    { id: "swimming-academy", image: "/campaigns/Swim1_1.jpg" },
-    { id: "chess-academy", image: "/campaigns/Chess1_1.jpeg" },
-    { id: "eid-activities", image: "/campaigns/eid.jpg" },
-    { id: "sakienh-campaign", image: "/campaigns/sakienh1.JPG" },
-    { id: "winter-assistance", image: "/campaigns/winter1.jpg" },
-    // { id: "emergency-response-fires", image: "/campaigns/fires.jpg" },
-    { id: "monthly-sponsorships", image: "/campaigns/sponsorships.jpeg" },
-    { id: "joy-for-orphan", image: "/campaigns/orphan.jpeg" },
-    { id: "earthquake-response", image: "/campaigns/earthquake.jpeg" },
-    { id: "Latakia-Camp", image: "/campaigns/Camp.jpeg"}
+    { id: "food-basket", image: "/campaigns/food_basket.webp" },
+    { id: "fast-food-kitchens", image: "/campaigns/kitchen.webp" },
+    { id: "eid-adha-sacrifices", image: "/campaigns/Ada7i.webp" },
+    { id: "ramadan-market", image: "/campaigns/ramadan_market.webp" },
+    { id: "football-academy", image: "/campaigns/Football1_1.webp" },
+    { id: "swimming-academy", image: "/campaigns/Swim1_1.webp" },
+    { id: "chess-academy", image: "/campaigns/Chess1_1.webp" },
+    { id: "eid-activities", image: "/campaigns/eid.webp" },
+    { id: "sakienh-campaign", image: "/campaigns/sakienh1.webp" },
+    { id: "winter-assistance", image: "/campaigns/winter1.webp" },
+    // { id: "emergency-response-fires", image: "/campaigns/fires.webp" },
+    { id: "monthly-sponsorships", image: "/campaigns/sponsorships.webp" },
+    { id: "joy-for-orphan", image: "/campaigns/orphan.webp" },
+    { id: "earthquake-response", image: "/campaigns/earthquake.webp" },
+    { id: "Latakia-Camp", image: "/campaigns/Camp.webp"}
   ];
 
   const next = () => {

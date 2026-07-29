@@ -32,7 +32,7 @@ const AboutUs = () => {
 
         <div
           className="absolute inset-0 animate-bg-zoom bg-cover bg-center"
-          style={{ backgroundImage: "url('/aboutUs/DSC02508.JPG')" }}
+          style={{ backgroundImage: "url('/aboutUs/DSC02508.webp')" }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/30" />
 
@@ -210,7 +210,7 @@ const AboutUs = () => {
           <div className="mb-20 grid grid-cols-1 items-start gap-10 lg:grid-cols-12 lg:gap-14">
             <GoalCard
               className="lg:col-span-4"
-              image="/aboutUs/DJI_0302 (1).JPG"
+              image="/aboutUs/DJI_0302 (1).webp"
               title={t("about.goals.betterPlace.title")}
               desc={t("about.goals.betterPlace.desc")}
               tall
@@ -219,7 +219,7 @@ const AboutUs = () => {
 
             <GoalCard
               className="lg:col-span-8"
-              image="/aboutUs/IMG_9094.jpg"
+              image="/aboutUs/IMG_9094.webp"
               title={t("about.goals.sustainability.title")}
               desc={t("about.goals.sustainability.desc")}
               isAr={isAr}
@@ -229,7 +229,7 @@ const AboutUs = () => {
           <div className="grid grid-cols-1 items-start gap-10 lg:grid-cols-12 lg:gap-14">
             <GoalCard
               className="lg:col-span-8"
-              image="/aboutUs/qq.jpg"
+              image="/aboutUs/qq.webp"
               title={t("about.goals.dignity.title")}
               desc={t("about.goals.dignity.desc")}
               isAr={isAr}
@@ -237,7 +237,7 @@ const AboutUs = () => {
 
             <GoalCard
               className="lg:col-span-4"
-              image="/aboutUs/IMG_2532.JPG"
+              image="/aboutUs/IMG_2532.webp"
               title={t("about.goals.heroes.title")}
               desc={t("about.goals.heroes.desc")}
               tall

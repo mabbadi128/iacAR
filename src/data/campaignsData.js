@@ -2,7 +2,7 @@ export const campaignsData = [
   {
     id: "food-basket",
     type: "old",
-    heroImage: "/campaigns/food_basket.jpeg",
+    heroImage: "/campaigns/food_basket.webp",
     title: {
       ar: "سلل ومساعدات غذائية",
       en: "Food baskets and aid",
@@ -27,16 +27,16 @@ export const campaignsData = [
     },
     progress: 100,
     gallery: [
-      "/campaigns/food_basket_11.jpeg",
-      "/campaigns/food_basket_22.jpeg",
-      "/campaigns/food_basket_33.JPG",
+      "/campaigns/food_basket_11.webp",
+      "/campaigns/food_basket_22.webp",
+      "/campaigns/food_basket_33.webp",
     ],
   },
 
   {
     id: "fast-food-kitchens",
     type: "old",
-    heroImage: "/campaigns/kitchen.jpg",
+    heroImage: "/campaigns/kitchen.webp",
     title: {
       ar: "مطابخ ووجبات سريعة",
       en: "Fast Food and Kitchens",
@@ -61,16 +61,16 @@ export const campaignsData = [
     },
     progress: 100,
     gallery: [
-      "/campaigns/kitchen_11.jpeg",
-      "/campaigns/kitchen_22.jpeg",
-      "/campaigns/kitchen_33.jpeg",
+      "/campaigns/kitchen_11.webp",
+      "/campaigns/kitchen_22.webp",
+      "/campaigns/kitchen_33.webp",
     ],
   },
 
   {
     id: "monthly-sponsorships",
     type: "old",
-    heroImage: "/campaigns/sponsorships.jpeg",
+    heroImage: "/campaigns/sponsorships.webp",
     title: {
       ar: "كفالات شهرية",
       en: "Monthly Sponsorships",
@@ -95,16 +95,16 @@ export const campaignsData = [
     },
     progress: 100,
     gallery: [
-      "/campaigns/sponsorships_11.jpeg",
-      "/campaigns/sponsorships_22.jpeg",
-      "/campaigns/sponsorships_33.jpeg",
+      "/campaigns/sponsorships_11.webp",
+      "/campaigns/sponsorships_22.webp",
+      "/campaigns/sponsorships_33.webp",
     ],
   },
 
   {
     id: "winter-assistance",
     type: "old",
-    heroImage: "/campaigns/winter1.jpg",
+    heroImage: "/campaigns/winter1.webp",
     title: {
       ar: "مساعدات الشتاء",
       en: "Winter Assistance",
@@ -129,16 +129,16 @@ export const campaignsData = [
     },
     progress: 100,
     gallery: [
-      "/campaigns/winter1_2.jpg",
-      "/campaigns/winter1_3.jpg",
-      "/campaigns/winter1_4.jpg",
+      "/campaigns/winter1_2.webp",
+      "/campaigns/winter1_3.webp",
+      "/campaigns/winter1_4.webp",
     ],
   },
 
   {
     id: "joy-for-orphan",
     type: "old",
-    heroImage: "/campaigns/orphan.jpeg",
+    heroImage: "/campaigns/orphan.webp",
     title: {
       ar: "فرحة يتيم",
       en: "Joy for an Orphan",
@@ -163,16 +163,16 @@ export const campaignsData = [
     },
     progress: 100,
     gallery: [
-      "/campaigns/orphan_11.jpeg",
-      "/campaigns/orphan_22.jpeg",
-      "/campaigns/orphan_33.jpeg",
+      "/campaigns/orphan_11.webp",
+      "/campaigns/orphan_22.webp",
+      "/campaigns/orphan_33.webp",
     ],
   },
 
   {
     id: "eid-adha-sacrifices",
     type: "old",
-    heroImage: "/campaigns/Ada7i.jpeg",
+    heroImage: "/campaigns/Ada7i.webp",
     title: {
       ar: "أضاحي عيد الأضحى",
       en: "Eid al-Adha Sacrifices",
@@ -197,15 +197,15 @@ export const campaignsData = [
     },
     progress: 100,
     gallery: [
-      "/campaigns/Ada7i_11.jpeg",
-      "/campaigns/Ada7i_22.jpeg",
+      "/campaigns/Ada7i_11.webp",
+      "/campaigns/Ada7i_22.webp",
     ],
   },
 
   {
     id: "earthquake-response",
     type: "old",
-    heroImage: "/campaigns/earthquake.jpeg",
+    heroImage: "/campaigns/earthquake.webp",
     title: {
       ar: "استجابة الزلزال",
       en: "Earthquake Response",
@@ -234,10 +234,10 @@ export const campaignsData = [
     },
     progress: 100,
     gallery: [
-      "/campaigns/earthquake_11.jpeg",
-      "/campaigns/earthquake_22.jpeg",
-      "/campaigns/earthquake_33.jpeg",
-      "/campaigns/earthquake_44.jpeg",
+      "/campaigns/earthquake_11.webp",
+      "/campaigns/earthquake_22.webp",
+      "/campaigns/earthquake_33.webp",
+      "/campaigns/earthquake_44.webp",
 
     ],
   },
@@ -245,7 +245,7 @@ export const campaignsData = [
   {
     id: "sakienh-campaign",
     type: "old",
-    heroImage: "/campaigns/sakienh1.JPG",
+    heroImage: "/campaigns/sakienh1.webp",
     title: {
       ar: "حملة السكينة للإغاثة",
       en: "Sakienh Relief Campaign",
@@ -274,16 +274,16 @@ export const campaignsData = [
     },
     progress: 100,
     gallery: [
-      "/campaigns/sakienh_11.jpeg",
-      "/campaigns/sakienh_22.jpeg",
-      "/campaigns/sakienh_33.jpeg",
+      "/campaigns/sakienh_11.webp",
+      "/campaigns/sakienh_22.webp",
+      "/campaigns/sakienh_33.webp",
     ],
   },
 
   {
     id: "eid-activities",
     type: "old",
-    heroImage: "/campaigns/eid.jpg",
+    heroImage: "/campaigns/eid.webp",
     title: {
       ar: "أنشطة العيد",
       en: "Eid Activities",
@@ -312,16 +312,16 @@ export const campaignsData = [
     },
     progress: 100,
     gallery: [
-      // "/campaigns/eid.jpg",
-      "/campaigns/eid1_1.jpg",
-      "/campaigns/eid1_2.JPG",
+      // "/campaigns/eid.webp",
+      "/campaigns/eid1_1.webp",
+      "/campaigns/eid1_2.webp",
     ],
   },
 
   {
     id: "chess-academy",
     type: "old",
-    heroImage: "/campaigns/Chess1_1.jpeg",
+    heroImage: "/campaigns/Chess1_1.webp",
     title: {
       ar: "أكاديمية الشطرنج",
       en: "Chess Academy",
@@ -350,16 +350,16 @@ export const campaignsData = [
     },
     progress: 100,
     gallery: [
-      "/campaigns/Chess1_2.jpeg",
-      "/campaigns/Chess1_3.jpeg",
-      "/campaigns/Chess1_4.jpeg",
+      "/campaigns/Chess1_2.webp",
+      "/campaigns/Chess1_3.webp",
+      "/campaigns/Chess1_4.webp",
     ],
   },
 
   {
     id: "ramadan-market",
     type: "old",
-    heroImage: "/campaigns/ramadan_market.jpeg",
+    heroImage: "/campaigns/ramadan_market.webp",
     title: {
       ar: "سوق رمضان",
       en: "Ramadan Market",
@@ -390,16 +390,16 @@ export const campaignsData = [
     },
     progress: 100,
     gallery: [
-      "/campaigns/ramadan1_1.jpg",
-      "/campaigns/ramadan1_2.JPG",
-      "/campaigns/ramadan1_3.JPG",
+      "/campaigns/ramadan1_1.webp",
+      "/campaigns/ramadan1_2.webp",
+      "/campaigns/ramadan1_3.webp",
     ],
   },
 
   {
     id: "swimming-academy",
     type: "old",
-    heroImage: "/campaigns/Swim1_1.jpg",
+    heroImage: "/campaigns/Swim1_1.webp",
     title: {
       ar: "أكاديمية السباحة",
       en: "Swimming Academy",
@@ -428,16 +428,16 @@ export const campaignsData = [
     },
     progress: 100,
     gallery: [
-      "/campaigns/Swim1_2.jpg",
-      "/campaigns/Swim1_3.jpg",
-      "/campaigns/Swim1_4.jpg",
+      "/campaigns/Swim1_2.webp",
+      "/campaigns/Swim1_3.webp",
+      "/campaigns/Swim1_4.webp",
     ],
   },
   {
   id: "football-academy",
   type: "old",
 
-  heroImage: "/campaigns/Football1_1.jpg",
+  heroImage: "/campaigns/Football1_1.webp",
 
   title: {
     ar: "أكاديمية كرة القدم",
@@ -479,16 +479,16 @@ We strive to make football more than just a game, but a pathway that inspires ho
   progress: 100,
 
   gallery: [
-    "/campaigns/Football1_2.jpg",
-    "/campaigns/Football1_3.jpg",
-    "/campaigns/Football1_4.jpg",
+    "/campaigns/Football1_2.webp",
+    "/campaigns/Football1_3.webp",
+    "/campaigns/Football1_4.webp",
   ],
 },
 
 {
     id: "Latakia-Camp",
     type: "old",
-    heroImage: "/campaigns/Camp.jpeg",
+    heroImage: "/campaigns/Camp.webp",
     title: {
       ar:"معسكر الاستجابة الأول",
       en: "First Response Camp",
@@ -513,9 +513,9 @@ We strive to make football more than just a game, but a pathway that inspires ho
     },
     progress: 100,
     gallery: [
-      "/campaigns/Camp1-1.jpeg",
-      "/campaigns/Camp2-2.jpeg",
-      "/campaigns/Camp3-3.jpeg",
+      "/campaigns/Camp1-1.webp",
+      "/campaigns/Camp2-2.webp",
+      "/campaigns/Camp3-3.webp",
     ],
   },
 

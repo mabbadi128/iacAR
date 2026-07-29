@@ -9,10 +9,10 @@ export default function Home() {
   const isArabic = i18n.language === "ar";
 
   const cards = [
-    { title: t("home.cards.orphans.title"), text: t("home.cards.orphans.text"), image: "/Home/child.jpg" },
-    { title: t("home.cards.food.title"), text: t("home.cards.food.text"), image: "/Home/food.JPG" },
-    { title: t("home.cards.activities.title"), text: t("home.cards.activities.text"), image: "/Home/swim.jpg" },
-    { title: t("home.cards.emergency.title"), text: t("home.cards.emergency.text"), image: "/Home/emergency.JPG" },
+    { title: t("home.cards.orphans.title"), text: t("home.cards.orphans.text"), image: "/Home/child.webp" },
+    { title: t("home.cards.food.title"), text: t("home.cards.food.text"), image: "/Home/food.webp" },
+    { title: t("home.cards.activities.title"), text: t("home.cards.activities.text"), image: "/Home/swim.webp" },
+    { title: t("home.cards.emergency.title"), text: t("home.cards.emergency.text"), image: "/Home/emergency.webp" },
   ];
 
   const steps = [
@@ -35,14 +35,14 @@ export default function Home() {
 
 
   const team = [
-    { name: t("home.teamNames.omari"), role: t("home.team.omari"), image: "/team_member/Mohammad Omari.jpeg" },
-    { name: t("home.teamNames.mutasem"), role: t("home.team.mutasem"), image: "/team_member/mutasem.jpeg" },
-    { name: t("home.teamNames.muhammad"), role: t("home.team.muhammad"), image: "/team_member/muhammad.jpeg" },
-    { name: t("home.teamNames.malaz"), role: t("home.team.malaz"), image: "/team_member/malaz.jpeg" },
-    { name: t("home.teamNames.amr"), role: t("home.team.amr"), image: "/team_member/Amr.jpeg" },
-    { name: t("home.teamNames.ghufran"), role: t("home.team.ghufran"), image: "/team_member/ghufran.jpeg" },
-    { name: t("home.teamNames.bayan"), role: t("home.team.bayan"), image: "/team_member/bayan.jpeg" },
-    { name: t("home.teamNames.haya"), role: t("home.team.haya"), image: "/team_member/haya.jpeg" },
+    { name: t("home.teamNames.omari"), role: t("home.team.omari"), image: "/team_member/Mohammad Omari.webp" },
+    { name: t("home.teamNames.mutasem"), role: t("home.team.mutasem"), image: "/team_member/mutasem.webp" },
+    { name: t("home.teamNames.muhammad"), role: t("home.team.muhammad"), image: "/team_member/muhammad.webp" },
+    { name: t("home.teamNames.malaz"), role: t("home.team.malaz"), image: "/team_member/malaz.webp" },
+    { name: t("home.teamNames.amr"), role: t("home.team.amr"), image: "/team_member/Amr.webp" },
+    { name: t("home.teamNames.ghufran"), role: t("home.team.ghufran"), image: "/team_member/ghufran.webp" },
+    { name: t("home.teamNames.bayan"), role: t("home.team.bayan"), image: "/team_member/bayan.webp" },
+    { name: t("home.teamNames.haya"), role: t("home.team.haya"), image: "/team_member/haya.webp" },
   ];
   const nextTeam = () => {
     setTeamIndex((prev) => (prev + 1 >= team.length ? 0 : prev + 1));
@@ -61,7 +61,7 @@ export default function Home() {
 
         <div
           className="absolute inset-0 bg-cover bg-center animate-bg-zoom"
-          style={{ backgroundImage: "url('/Home/Hero.jpeg')" }}
+          style={{ backgroundImage: "url('/Home/Hero.webp')" }}
         />
 
         <div className="absolute inset-0 bg-black/50" />
@@ -160,7 +160,7 @@ export default function Home() {
           </div>
 
           <img
-            src="/Home/adahi.jpg"
+            src="/Home/adahi.webp"
             alt={t("home.adahi.title")}
             className="h-[360px] w-full rounded-xl object-cover shadow-xl"
           />
@@ -173,7 +173,7 @@ export default function Home() {
 
 
         <div className="mx-auto grid max-w-7xl gap-5 md:grid-cols-3">
-          {["/Home/box_cam.jpg", "/Home/sponge.jpg", "/Home/kid_box.JPG", "/Home/smily_kid.jpg", "/Home/boxes.jpg"].map(
+          {["/Home/box_cam.webp", "/Home/sponge.webp", "/Home/kid_box.webp", "/Home/smily_kid.webp", "/Home/boxes.webp"].map(
             (img, index) => (
               <img
                 key={index}

@@ -7,7 +7,7 @@ function ContactHero() {
     <section className="relative flex min-h-[400px] items-center overflow-hidden">
       <div
         className="absolute inset-0 animate-bg-zoom bg-cover bg-center"
-        style={{ backgroundImage: "url('/ContactUs/contactHero.jpg')" }}
+        style={{ backgroundImage: "url('/ContactUs/contactHero.webp')" }}
       />
 
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/30" />

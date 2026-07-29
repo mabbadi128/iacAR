@@ -2,14 +2,14 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 const IMAGES = {
-  hero: "/Services/1.jpeg",
-  card_emergency: "/Services/4.jpg",
-  card_fieldwork: "/Services/2.JPG",
-  card_food: "/Services/5.jpg",
-  quad1: "/Services/6.JPG",
-  quad2: "/Services/7.jpg",
-  quad3: "/Services/8.JPG",
-  quad4: "/Services/9.jpeg",
+  hero: "/Services/1.webp",
+  card_emergency: "/Services/4.webp",
+  card_fieldwork: "/Services/2.webp",
+  card_food: "/Services/5.webp",
+  quad1: "/Services/6.webp",
+  quad2: "/Services/7.webp",
+  quad3: "/Services/8.webp",
+  quad4: "/Services/9.webp",
 };
 
 const servicesData = [

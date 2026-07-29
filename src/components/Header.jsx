@@ -50,7 +50,7 @@ export default function Header() {
         
         <NavLink to="/" className="flex items-center gap-3">
           <img
-            src="/icon/iac_logo_with_name.png"
+            src="/icon/iac_logo_with_name.webp"
             alt="IAC Logo"
             className="h-14 w-auto object-contain"
           />
